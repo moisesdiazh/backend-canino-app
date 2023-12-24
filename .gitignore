@@ -1,0 +1,42 @@
+# Bytecode
+*.class
+
+# Compiled files
+target/
+bin/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Maven
+log/
+target/
+release.properties
+dependency-reduced-pom.xml
+.mvn/wrapper/
+
+
+# Spring Boot
+spring-boot-starter-*/target/
+!spring-boot-starter-*/target/*.jar
+!spring-boot-starter-*/target/classes/
+
+# Local configuration file (e.g., application.properties)
+src/main/resources/application.properties
